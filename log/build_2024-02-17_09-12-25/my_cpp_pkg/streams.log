@@ -1,0 +1,14 @@
+[0.260s] Invoking command in '/home/tvesala/src/ros2/demo1/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvesala/src/ros2/demo1/install/my_py_pkg:/opt/ros/galactic COMP_WORDBREAKS=
+"'><=;|&( WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/tvesala/src/ros2/demo1/build/my_cpp_pkg -- -j16 -l16
+[0.284s] [35m[1mScanning dependencies of target cpp_node[0m
+[0.300s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[1.531s] [01m[K/home/tvesala/src/ros2/demo1/my_cpp_pkg/src/my_first_node.cpp:[m[K In member function ‘[01m[Kvoid MyFirstNode::timer_callback()[m[K’:
+[1.532s] [01m[K/home/tvesala/src/ros2/demo1/my_cpp_pkg/src/my_first_node.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcounter[m[K’ was not declared in this scope; did you mean ‘[01m[Kcounter_[m[K’?
+[1.532s]    13 |     [01;31m[Kcounter[m[K++;
+[1.532s]       |     [01;31m[K^~~~~~~[m[K
+[1.532s]       |     [32m[Kcounter_[m[K
+[2.072s] make[2]: *** [CMakeFiles/cpp_node.dir/build.make:63: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1
+[2.072s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cpp_node.dir/all] Error 2
+[2.072s] make: *** [Makefile:141: all] Error 2
+[2.075s] Invoked command in '/home/tvesala/src/ros2/demo1/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvesala/src/ros2/demo1/install/my_py_pkg:/opt/ros/galactic COMP_WORDBREAKS=
+"'><=;|&( WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/tvesala/src/ros2/demo1/build/my_cpp_pkg -- -j16 -l16

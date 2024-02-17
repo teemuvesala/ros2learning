@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.000429] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000533] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000573] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.099598] (-) TimerEvent: {}
+[0.200434] (-) TimerEvent: {}
+[0.272279] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.272894] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.273563] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tvesala/src/ros2/demo1/build/my_cpp_pkg', '--', '-j16', '-l16'], 'cwd': '/home/tvesala/src/ros2/demo1/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', ''), ('TMUX', '/tmp/tmux-1000/default,1229,0'), ('USER', 'tvesala'), ('COMP_WORDBREAKS', '\n"\'><=;|&('), ('GIT_ASKPASS', '/home/tvesala/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh'), ('SHLVL', '3'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HISTIGNORE', '&:[ ]*:exit:ls:bg:fg:history:clear'), ('LESS', '-R'), ('HOME', '/home/tvesala'), ('OLDPWD', '/home/tvesala/src/ros2/demo1/install/my_py_pkg'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/mnt/wslg/runtime-dir/vscode-ipc-5d42a848-89f1-4813-a399-fb476246df6f.sock'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'less'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/tvesala/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\]\\[\x1b[34;1m\\]09:12:50 \\[\\e[0;97m\\](rospython) \\[\\e[90;1m\\]\\u@\\h \\[\\e[36;1m\\]\\W \\[\\e[32;1m\\]→ \\[\\e[0m\\]\\[\x1b]633;B\x07\\]'), ('NIX_PROFILES', '/nix/var/nix/profiles/default /home/tvesala/.nix-profile'), ('VSCODE_GIT_ASKPASS_NODE', '/home/tvesala/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node'), ('LC_CTYPE', 'C.UTF-8'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'RoSUbuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tvesala/src/ros2/demo1/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'tvesala'), ('OSH', '/home/tvesala/.oh-my-bash'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/11875_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tvesala/rospython/bin:/home/tvesala/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/home/tvesala/.nix-profile/bin:/home/tvesala/.local/bin:/home/tvesala/.nix-profile/bin:/home/tvesala/.local/bin:/opt/ros/galactic/bin:/home/tvesala/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/teme/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/teme/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('HISTSIZE', ''), ('LANG', 'C.UTF-8'), ('VIRTUAL_ENV_PROMPT', 'rospython'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/mnt/wslg/runtime-dir/vscode-git-54e7d40cec.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/tvesala/src/ros2/demo1/install/my_py_pkg:/home/tvesala/src/ros2/demo1/install/my_cpp_pkg:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NIX_SSL_CERT_FILE', '/etc/ssl/certs/ca-certificates.crt'), ('VIRTUAL_ENV', '/home/tvesala/rospython'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/tvesala/src/ros2/demo1/build/my_cpp_pkg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tvesala/src/ros2/demo1/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('TMUX_PANE', '%0'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/tvesala/src/ros2/demo1/install/my_cpp_pkg:/home/tvesala/src/ros2/demo1/install/my_py_pkg:/opt/ros/galactic'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.300572] (-) TimerEvent: {}
+[0.302178] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cpp_node\x1b[0m\n'}
+[0.319799] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o\x1b[0m\n'}
+[0.400699] (-) TimerEvent: {}
+[0.501051] (-) TimerEvent: {}
+[0.601404] (-) TimerEvent: {}
+[0.701763] (-) TimerEvent: {}
+[0.802221] (-) TimerEvent: {}
+[0.902666] (-) TimerEvent: {}
+[1.003043] (-) TimerEvent: {}
+[1.103434] (-) TimerEvent: {}
+[1.203799] (-) TimerEvent: {}
+[1.304214] (-) TimerEvent: {}
+[1.404597] (-) TimerEvent: {}
+[1.476013] (my_cpp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[1.476219] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[1.476269] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.476308] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.476345] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.476398] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.476437] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[1.476509] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.476561] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.476603] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[1.476640] (my_cpp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tvesala/src/ros2/demo1/my_cpp_pkg/src/my_first_node.cpp:1\x1b[m\x1b[K:\n'}
+[1.476677] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tvesala/src/ros2/demo1/my_cpp_pkg/src/my_first_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MyFirstNode::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.476717] (my_cpp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tvesala/src/ros2/demo1/my_cpp_pkg/src/my_first_node.cpp:14:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcounter\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcounter_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.476753] (my_cpp_pkg) StderrLine: {'line': b'   14 |     RCLCPP_INFO(this->get_logger(), "Hello, world %d!", \x1b[01;31m\x1b[Kcounter\x1b[m\x1b[K);\n'}
+[1.476788] (my_cpp_pkg) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.504766] (-) TimerEvent: {}
+[1.605118] (-) TimerEvent: {}
+[1.705490] (-) TimerEvent: {}
+[1.805878] (-) TimerEvent: {}
+[1.906246] (-) TimerEvent: {}
+[2.006628] (-) TimerEvent: {}
+[2.006993] (my_cpp_pkg) StderrLine: {'line': b'make[2]: *** [CMakeFiles/cpp_node.dir/build.make:63: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1\n'}
+[2.007137] (my_cpp_pkg) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cpp_node.dir/all] Error 2\n'}
+[2.007188] (my_cpp_pkg) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.008708] (my_cpp_pkg) CommandEnded: {'returncode': 2}
+[2.106910] (-) TimerEvent: {}
+[2.208041] (-) TimerEvent: {}
+[2.285383] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 2}
+[2.296355] (-) EventReactorShutdown: {}

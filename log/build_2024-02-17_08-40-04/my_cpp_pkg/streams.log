@@ -1,0 +1,51 @@
+[0.264s] Invoking command in '/home/tvesala/src/ros2/demo1/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvesala/src/ros2/demo1/install/my_py_pkg:/opt/ros/galactic COMP_WORDBREAKS=
+"'><=;|&( WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/tvesala/src/ros2/demo1/build/my_cpp_pkg -- -j16 -l16
+[0.284s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.303s] -- Using PYTHON_EXECUTABLE: /home/tvesala/rospython/bin/python3
+[0.359s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.472s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.476s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.447s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.498s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[2.500s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[2.517s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.629s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.700s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.700s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.700s] -- Configured cppcheck include dirs: 
+[2.701s] -- Configured cppcheck exclude dirs and/or files: 
+[2.702s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.702s] -- Configured cpplint exclude dirs and/or files: 
+[2.703s] -- Added test 'lint_cmake' to check CMake code style
+[2.704s] -- Added test 'uncrustify' to check C / C++ code style
+[2.704s] -- Configured uncrustify additional arguments: 
+[2.704s] -- Added test 'xmllint' to check XML markup files
+[2.707s] -- Configuring done
+[2.715s] -- Generating done
+[2.716s] -- Build files have been written to: /home/tvesala/src/ros2/demo1/build/my_cpp_pkg
+[2.733s] [35m[1mScanning dependencies of target cpp_node[0m
+[2.756s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[4.602s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[4.748s] [100%] Built target cpp_node
+[4.756s] Invoked command in '/home/tvesala/src/ros2/demo1/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvesala/src/ros2/demo1/install/my_py_pkg:/opt/ros/galactic COMP_WORDBREAKS=
+"'><=;|&( WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/tvesala/src/ros2/demo1/build/my_cpp_pkg -- -j16 -l16
+[4.777s] Invoking command in '/home/tvesala/src/ros2/demo1/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvesala/src/ros2/demo1/install/my_py_pkg:/opt/ros/galactic COMP_WORDBREAKS=
+"'><=;|&( WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/tvesala/src/ros2/demo1/build/my_cpp_pkg
+[4.781s] -- Install configuration: ""
+[4.781s] -- Up-to-date: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[4.782s] -- Installing: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[4.782s] -- Up-to-date: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[4.782s] -- Installing: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[4.782s] -- Up-to-date: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[4.782s] -- Installing: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[4.782s] -- Up-to-date: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[4.782s] -- Up-to-date: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[4.782s] -- Up-to-date: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[4.783s] -- Installing: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[4.783s] -- Installing: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[4.783s] -- Up-to-date: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[4.783s] -- Up-to-date: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[4.783s] -- Up-to-date: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[4.783s] -- Up-to-date: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[4.784s] Invoked command in '/home/tvesala/src/ros2/demo1/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvesala/src/ros2/demo1/install/my_py_pkg:/opt/ros/galactic COMP_WORDBREAKS=
+"'><=;|&( WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/tvesala/src/ros2/demo1/build/my_cpp_pkg

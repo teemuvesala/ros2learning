@@ -1,0 +1,30 @@
+[0.285s] Invoking command in '/home/tvesala/src/ros2/demo1/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvesala/src/ros2/demo1/install/my_py_pkg:/opt/ros/galactic COMP_WORDBREAKS=
+"'><=;|&( WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/tvesala/src/ros2/demo1/build/my_cpp_pkg -- -j16 -l16
+[0.308s] [35m[1mScanning dependencies of target cpp_node[0m
+[0.327s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[2.203s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[2.307s] [100%] Built target cpp_node
+[2.315s] Invoked command in '/home/tvesala/src/ros2/demo1/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvesala/src/ros2/demo1/install/my_py_pkg:/opt/ros/galactic COMP_WORDBREAKS=
+"'><=;|&( WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/tvesala/src/ros2/demo1/build/my_cpp_pkg -- -j16 -l16
+[2.335s] Invoking command in '/home/tvesala/src/ros2/demo1/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvesala/src/ros2/demo1/install/my_py_pkg:/opt/ros/galactic COMP_WORDBREAKS=
+"'><=;|&( WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/tvesala/src/ros2/demo1/build/my_cpp_pkg
+[2.339s] -- Install configuration: ""
+[2.340s] -- Installing: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[2.340s] -- Set runtime path of "/home/tvesala/src/ros2/demo1/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[2.340s] -- Up-to-date: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[2.340s] -- Up-to-date: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[2.340s] -- Up-to-date: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[2.341s] -- Up-to-date: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[2.341s] -- Up-to-date: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[2.341s] -- Up-to-date: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[2.341s] -- Up-to-date: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[2.341s] -- Up-to-date: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[2.341s] -- Up-to-date: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[2.341s] -- Up-to-date: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[2.341s] -- Installing: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[2.341s] -- Up-to-date: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[2.341s] -- Up-to-date: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[2.341s] -- Up-to-date: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[2.341s] -- Up-to-date: /home/tvesala/src/ros2/demo1/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[2.342s] Invoked command in '/home/tvesala/src/ros2/demo1/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvesala/src/ros2/demo1/install/my_py_pkg:/opt/ros/galactic COMP_WORDBREAKS=
+"'><=;|&( WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/tvesala/src/ros2/demo1/build/my_cpp_pkg

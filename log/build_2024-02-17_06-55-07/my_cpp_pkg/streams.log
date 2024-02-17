@@ -1,0 +1,59 @@
+[0.584s] Invoking command in '/home/tvesala/src/ros2/demo1/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/galactic COMP_WORDBREAKS=
+"'><=;|&( WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/tvesala/src/ros2/demo1/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/tvesala/src/ros2/demo1/install/my_cpp_pkg
+[0.778s] -- The C compiler identification is GNU 9.4.0
+[0.971s] -- The CXX compiler identification is GNU 9.4.0
+[1.026s] -- Check for working C compiler: /usr/bin/cc
+[1.101s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.103s] -- Detecting C compiler ABI info
+[1.177s] -- Detecting C compiler ABI info - done
+[1.185s] -- Detecting C compile features
+[1.185s] -- Detecting C compile features - done
+[1.188s] -- Check for working CXX compiler: /usr/bin/c++
+[1.275s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.276s] -- Detecting CXX compiler ABI info
+[1.350s] -- Detecting CXX compiler ABI info - done
+[1.357s] -- Detecting CXX compile features
+[1.357s] -- Detecting CXX compile features - done
+[1.372s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.391s] -- Found PythonInterp: /home/tvesala/rospython/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.391s] -- Using PYTHON_EXECUTABLE: /home/tvesala/rospython/bin/python3
+[1.461s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.578s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.585s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.175s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.693s] -- Found FastRTPS: /opt/ros/galactic/include  
+[3.624s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.681s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[3.684s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[3.701s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.703s] -- Looking for pthread.h
+[3.787s] -- Looking for pthread.h - found
+[3.787s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.862s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.862s] -- Looking for pthread_create in pthreads
+[3.929s] -- Looking for pthread_create in pthreads - not found
+[3.929s] -- Looking for pthread_create in pthread
+[4.003s] -- Looking for pthread_create in pthread - found
+[4.004s] -- Found Threads: TRUE  
+[4.119s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[4.133s] Traceback (most recent call last):
+[4.133s]   File "/opt/ros/galactic/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[4.133s]     from catkin_pkg.package import evaluate_condition
+[4.133s] ModuleNotFoundError: No module named 'catkin_pkg'
+[4.134s] CMake Error at /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[4.134s]   execute_process(/home/tvesala/rospython/bin/python3
+[4.134s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[4.134s]   /home/tvesala/src/ros2/demo1/my_cpp_pkg/package.xml
+[4.134s]   /home/tvesala/src/ros2/demo1/build/my_cpp_pkg/ament_cmake_core/package.cmake)
+[4.134s]   returned error code 1
+[4.134s] Call Stack (most recent call first):
+[4.134s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[4.134s]   /opt/ros/galactic/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[4.135s]   CMakeLists.txt:20 (ament_lint_auto_find_test_dependencies)
+[4.135s] 
+[4.135s] 
+[4.135s] -- Configuring incomplete, errors occurred!
+[4.135s] See also "/home/tvesala/src/ros2/demo1/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[4.135s] See also "/home/tvesala/src/ros2/demo1/build/my_cpp_pkg/CMakeFiles/CMakeError.log".
+[4.143s] Invoked command in '/home/tvesala/src/ros2/demo1/build/my_cpp_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/galactic COMP_WORDBREAKS=
+"'><=;|&( WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/tvesala/src/ros2/demo1/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/tvesala/src/ros2/demo1/install/my_cpp_pkg

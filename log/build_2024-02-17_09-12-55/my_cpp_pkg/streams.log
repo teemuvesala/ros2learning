@@ -1,0 +1,24 @@
+[0.277s] Invoking command in '/home/tvesala/src/ros2/demo1/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvesala/src/ros2/demo1/install/my_py_pkg:/opt/ros/galactic COMP_WORDBREAKS=
+"'><=;|&( WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/tvesala/src/ros2/demo1/build/my_cpp_pkg -- -j16 -l16
+[0.302s] [35m[1mScanning dependencies of target cpp_node[0m
+[0.319s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[1.476s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+[1.476s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[1.476s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[1.476s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[1.476s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.476s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[1.476s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[1.476s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.476s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[1.476s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[1.476s]                  from [01m[K/home/tvesala/src/ros2/demo1/my_cpp_pkg/src/my_first_node.cpp:1[m[K:
+[1.476s] [01m[K/home/tvesala/src/ros2/demo1/my_cpp_pkg/src/my_first_node.cpp:[m[K In member function ‘[01m[Kvoid MyFirstNode::timer_callback()[m[K’:
+[1.476s] [01m[K/home/tvesala/src/ros2/demo1/my_cpp_pkg/src/my_first_node.cpp:14:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kcounter[m[K’ was not declared in this scope; did you mean ‘[01m[Kcounter_[m[K’?
+[1.476s]    14 |     RCLCPP_INFO(this->get_logger(), "Hello, world %d!", [01;31m[Kcounter[m[K);
+[1.476s]       |                                                         [01;31m[K^~~~~~~[m[K
+[2.007s] make[2]: *** [CMakeFiles/cpp_node.dir/build.make:63: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1
+[2.007s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/cpp_node.dir/all] Error 2
+[2.007s] make: *** [Makefile:141: all] Error 2
+[2.009s] Invoked command in '/home/tvesala/src/ros2/demo1/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvesala/src/ros2/demo1/install/my_py_pkg:/opt/ros/galactic COMP_WORDBREAKS=
+"'><=;|&( WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/tvesala/src/ros2/demo1/build/my_cpp_pkg -- -j16 -l16
