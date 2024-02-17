@@ -1,4 +1,0 @@
-Invoking command in '/home/tvesala/src/ros2/demo1/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvesala/src/ros2/demo1/install/my_py_pkg:/opt/ros/galactic COMP_WORDBREAKS=
-"'><=;|&( WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/tvesala/src/ros2/demo1/build/my_cpp_pkg -- -j16 -l16
-Invoked command in '/home/tvesala/src/ros2/demo1/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tvesala/src/ros2/demo1/install/my_py_pkg:/opt/ros/galactic COMP_WORDBREAKS=
-"'><=;|&( WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/tvesala/src/ros2/demo1/build/my_cpp_pkg -- -j16 -l16

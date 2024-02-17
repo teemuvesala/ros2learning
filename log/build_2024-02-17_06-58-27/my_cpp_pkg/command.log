@@ -1,4 +1,0 @@
-Invoking command in '/home/tvesala/src/ros2/demo1/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/galactic COMP_WORDBREAKS=
-"'><=;|&( WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/tvesala/src/ros2/demo1/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/tvesala/src/ros2/demo1/install/my_cpp_pkg
-Invoked command in '/home/tvesala/src/ros2/demo1/build/my_cpp_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/galactic COMP_WORDBREAKS=
-"'><=;|&( WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake /home/tvesala/src/ros2/demo1/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/tvesala/src/ros2/demo1/install/my_cpp_pkg
